@@ -1,14 +1,7 @@
 /* =========================================================
    ELP LEGAL NEWSLETTER
-   SHARE FUNCTIONS
+   JAVASCRIPT
 ========================================================= */
-
-
-/* =========================================================
-   GET CURRENT PAGE
-========================================================= */
-
-const pageUrl = window.location.href;
 
 
 /* =========================================================
@@ -17,14 +10,15 @@ const pageUrl = window.location.href;
 
 function shareFacebook() {
 
-    const facebookUrl =
-        "https://www.facebook.com/sharer/sharer.php?u=" +
-        encodeURIComponent(pageUrl);
+    const currentPage = encodeURIComponent(window.location.href);
+
+    const facebookURL =
+        "https://www.facebook.com/sharer/sharer.php?u=" + currentPage;
 
     window.open(
-        facebookUrl,
-        "facebook-share",
-        "width=650,height=500,noopener,noreferrer"
+        facebookURL,
+        "_blank",
+        "width=700,height=500"
     );
 }
 
@@ -35,19 +29,21 @@ function shareFacebook() {
 
 function shareTwitter() {
 
-    const text =
-        "النشرة القانونية العربية - العدد الثالث والثمانون | البوابة القانونية للتشريعات المصرية";
+    const currentPage = encodeURIComponent(window.location.href);
 
-    const twitterUrl =
-        "https://twitter.com/intent/tweet?text=" +
-        encodeURIComponent(text) +
-        "&url=" +
-        encodeURIComponent(pageUrl);
+    const pageTitle =
+        encodeURIComponent(document.title);
+
+    const twitterURL =
+        "https://twitter.com/intent/tweet?url=" +
+        currentPage +
+        "&text=" +
+        pageTitle;
 
     window.open(
-        twitterUrl,
-        "twitter-share",
-        "width=650,height=500,noopener,noreferrer"
+        twitterURL,
+        "_blank",
+        "width=700,height=500"
     );
 }
 
@@ -56,16 +52,21 @@ function shareTwitter() {
    READ MORE
 ========================================================= */
 
-const readMoreButton = document.querySelector(".read-more");
+document.addEventListener("DOMContentLoaded", function () {
 
-if (readMoreButton) {
+    const readMoreButtons =
+        document.querySelectorAll(".read-more");
 
-    readMoreButton.addEventListener("click", function () {
+    readMoreButtons.forEach(function (button) {
 
-        alert(
-            "سيتم فتح المقال كاملًا من النشرة القانونية."
-        );
+        button.addEventListener("click", function () {
+
+            alert(
+                "سيتم فتح المقال كاملًا قريبًا."
+            );
+
+        });
 
     });
 
-}
+});
