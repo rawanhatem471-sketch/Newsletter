@@ -14,17 +14,16 @@ html {
 }
 
 body {
-
     background: #f4f7fa;
-
-    color: #173b5b;
+    color: #163b5c;
 
     font-family:
         "IBM Plex Sans Arabic",
         "Cairo",
         sans-serif;
 
-    line-height: 1.9;
+    line-height: 2;
+    font-size: 15px;
 }
 
 
@@ -37,9 +36,7 @@ body {
 .newsletter-container,
 .about-container,
 .footer-container {
-
     width: min(1180px, 92%);
-
     margin: auto;
 }
 
@@ -49,15 +46,13 @@ body {
 ========================================================= */
 
 .site-header {
-
     height: 78px;
 
     background: #ffffff;
 
-    border-bottom: 1px solid #e1e9f0;
+    border-bottom: 1px solid #dce6ed;
 
     position: sticky;
-
     top: 0;
 
     z-index: 100;
@@ -65,51 +60,43 @@ body {
 
 
 .header-container {
-
     height: 100%;
 
     display: flex;
-
     align-items: center;
-
     justify-content: space-between;
 }
 
 
-/* BRAND */
+/* =========================================================
+   BRAND
+========================================================= */
 
 .brand {
-
     display: flex;
-
     align-items: center;
-
     gap: 13px;
 }
 
 
 .brand-logo {
-
     font-family: Arial, sans-serif;
 
-    font-size: 23px;
-
+    font-size: 24px;
     font-weight: 900;
 
     letter-spacing: -1.5px;
 
-    color: #074a7c;
+    color: #003b64;
 }
 
 
 .brand-logo span {
-
-    color: #13a2a4;
+    color: #00a3a3;
 }
 
 
 .brand-text strong {
-
     display: block;
 
     font-size: 14px;
@@ -119,33 +106,30 @@ body {
 
 
 .brand-text span {
-
     display: block;
 
     font-size: 11px;
 
-    color: #8497a8;
+    color: #71889b;
 }
 
 
-/* NAV */
+/* =========================================================
+   NAVIGATION
+========================================================= */
 
 .navigation {
-
     display: flex;
-
     gap: 30px;
 }
 
 
 .navigation a {
-
     text-decoration: none;
 
     color: #46647e;
 
     font-size: 14px;
-
     font-weight: 600;
 
     transition: .2s;
@@ -153,8 +137,7 @@ body {
 
 
 .navigation a:hover {
-
-    color: #087d89;
+    color: #007f83;
 }
 
 
@@ -163,7 +146,6 @@ body {
 ========================================================= */
 
 .hero {
-
     position: relative;
 
     overflow: hidden;
@@ -171,9 +153,9 @@ body {
     background:
         linear-gradient(
             120deg,
-            #063b6c,
-            #075a8d 55%,
-            #087c83
+            #003b64,
+            #00527d 55%,
+            #007f83
         );
 
     color: white;
@@ -181,15 +163,13 @@ body {
 
 
 .hero-background {
-
     position: absolute;
 
     inset: 0;
 
-    opacity: .12;
+    opacity: .10;
 
     background-image:
-
         radial-gradient(
             circle,
             white 1px,
@@ -201,22 +181,17 @@ body {
 
 
 .hero-container {
-
     position: relative;
 
     padding:
-
         70px
-
         0
-
-        36px;
+        38px;
 }
 
 
 .hero-label {
-
-    color: #a5e4e4;
+    color: #9edfe0;
 
     font-size: 12px;
 
@@ -227,26 +202,25 @@ body {
 
 
 .hero h1 {
+    font-size: 46px;
 
-    font-size: 44px;
-
-    line-height: 1.25;
+    line-height: 1.3;
 
     margin-top: 8px;
-
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 
     font-weight: 800;
 }
 
 
 .hero p {
+    max-width: 760px;
 
-    max-width: 700px;
+    color: #e3f0f5;
 
-    color: #e1eff5;
+    font-size: 17px;
 
-    font-size: 16px;
+    line-height: 2;
 
     margin-bottom: 35px;
 }
@@ -257,7 +231,6 @@ body {
 ========================================================= */
 
 .newsletter-tabs {
-
     display: flex;
 
     flex-wrap: wrap;
@@ -267,20 +240,19 @@ body {
 
 
 .newsletter-tab {
-
     border: 1px solid rgba(255,255,255,.25);
 
     background: rgba(255,255,255,.10);
 
     color: white;
 
-    padding: 11px 18px;
+    padding: 12px 19px;
 
     border-radius: 9px;
 
     font-family: inherit;
 
-    font-size: 13px;
+    font-size: 14px;
 
     font-weight: 600;
 
@@ -291,7 +263,6 @@ body {
 
 
 .newsletter-tab span {
-
     font-size: 10px;
 
     margin-left: 6px;
@@ -301,25 +272,22 @@ body {
 
 
 .newsletter-tab:hover {
-
-    background: rgba(255,255,255,.2);
+    background: rgba(255,255,255,.20);
 
     transform: translateY(-1px);
 }
 
 
 .newsletter-tab.active {
+    background: #ffffff;
 
-    background: white;
+    color: #003b64;
 
-    color: #074878;
-
-    border-color: white;
+    border-color: #ffffff;
 }
 
 
 .newsletter-tab.disabled {
-
     opacity: .45;
 
     cursor: not-allowed;
@@ -327,7 +295,6 @@ body {
 
 
 .newsletter-tab small {
-
     font-size: 9px;
 
     margin-right: 5px;
@@ -345,21 +312,18 @@ body {
 ========================================================= */
 
 .newsletter-container {
-
     padding:
-
         55px
-
         0
-
         85px;
 }
 
 
-/* ISSUE HEADER */
+/* =========================================================
+   ISSUE HEADER
+========================================================= */
 
 .issue-header {
-
     display: flex;
 
     align-items: flex-end;
@@ -372,41 +336,38 @@ body {
 
     margin-bottom: 35px;
 
-    border-bottom: 1px solid #dbe5ec;
+    border-bottom: 1px solid #d6e1e8;
 }
 
 
 .issue-type {
+    color: #007f83;
 
-    color: #07818a;
-
-    font-size: 13px;
+    font-size: 14px;
 
     font-weight: 800;
 }
 
 
 .issue-header h2 {
+    color: #123d5d;
 
-    color: #153e60;
+    font-size: 32px;
 
-    font-size: 29px;
-
-    line-height: 1.4;
+    line-height: 1.5;
 
     margin-top: 3px;
 }
 
 
 .issue-number {
+    background: #e5f3f4;
 
-    background: #e8f4f5;
+    color: #006d75;
 
-    color: #08757d;
+    border: 1px solid #c5e2e4;
 
-    border: 1px solid #cce7e8;
-
-    padding: 7px 14px;
+    padding: 8px 15px;
 
     border-radius: 8px;
 
@@ -421,19 +382,16 @@ body {
 ========================================================= */
 
 .newsletter-intro {
+    background: #ffffff;
 
-    background: white;
-
-    border: 1px solid #e0e8ef;
+    border: 1px solid #dce6ed;
 
     border-radius: 18px;
 
-    padding: 29px 30px;
+    padding: 30px 32px;
 
     box-shadow:
-
         0 8px 30px
-
         rgba(20,55,90,.05);
 
     margin-bottom: 50px;
@@ -441,22 +399,22 @@ body {
 
 
 .newsletter-intro h3 {
+    color: #004b73;
 
-    color: #084d7d;
+    font-size: 23px;
 
-    font-size: 21px;
-
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 
 .newsletter-intro > p {
+    color: #526b7d;
 
-    color: #607589;
+    font-size: 15.5px;
 
-    font-size: 14px;
+    line-height: 2.15;
 
-    max-width: 950px;
+    max-width: 1000px;
 }
 
 
@@ -465,7 +423,6 @@ body {
 ========================================================= */
 
 .highlights {
-
     display: grid;
 
     grid-template-columns:
@@ -478,30 +435,26 @@ body {
 
 
 .highlight {
-
-    background: #f2f7fa;
+    background: #f0f6f9;
 
     border-right:
-
-        3px solid
-
-        #0b788b;
+        4px solid
+        #008b91;
 
     border-radius: 9px;
 
-    padding: 13px 14px;
+    padding: 15px 16px;
 
-    color: #2b4c66;
+    color: #31536c;
 
-    font-size: 12px;
+    font-size: 13.5px;
 
-    line-height: 1.7;
+    line-height: 1.9;
 }
 
 
 .highlight-number {
-
-    color: #0a7d87;
+    color: #007c84;
 
     font-weight: 800;
 
@@ -514,13 +467,11 @@ body {
 ========================================================= */
 
 .news-section {
-
     margin-top: 55px;
 }
 
 
 .section-heading {
-
     display: flex;
 
     align-items: center;
@@ -532,20 +483,22 @@ body {
 
 
 .section-line {
+    width: 38px;
 
-    width: 35px;
+    height: 3px;
 
-    height: 2px;
+    background: #008b91;
 
-    background: #12a0a2;
+    border-radius: 3px;
 }
 
 
 .section-heading h3 {
+    color: #123d5d;
 
-    color: #143d5d;
+    font-size: 27px;
 
-    font-size: 24px;
+    line-height: 1.5;
 }
 
 
@@ -554,23 +507,20 @@ body {
 ========================================================= */
 
 .featured-news {
-
     position: relative;
 
-    background: white;
+    background: #ffffff;
 
-    border: 1px solid #dfe8ef;
+    border: 1px solid #dce6ed;
 
     border-radius: 18px;
 
-    padding: 28px 31px;
+    padding: 30px 33px;
 
     overflow: hidden;
 
     box-shadow:
-
         0 8px 28px
-
         rgba(20,55,90,.05);
 
     transition: .25s;
@@ -578,7 +528,6 @@ body {
 
 
 .featured-news::before {
-
     content: "";
 
     position: absolute;
@@ -591,32 +540,32 @@ body {
 
     width: 5px;
 
-    background: #0a778a;
+    background:
+        linear-gradient(
+            to bottom,
+            #004b73,
+            #008b91
+        );
 }
 
 
 .featured-news:hover {
-
     transform: translateY(-2px);
 
     box-shadow:
-
         0 14px 35px
-
         rgba(20,55,90,.08);
 }
 
 
 /* =========================================================
-   NEWS CARD
+   NEWS GRID
 ========================================================= */
 
 .news-grid {
-
     display: grid;
 
     grid-template-columns:
-
         repeat(2, 1fr);
 
     gap: 18px;
@@ -625,101 +574,104 @@ body {
 }
 
 
+/* =========================================================
+   NEWS CARD
+========================================================= */
+
 .news-card {
+    background: #ffffff;
 
-    background: white;
-
-    border: 1px solid #dfe8ef;
+    border: 1px solid #dce6ed;
 
     border-radius: 15px;
 
-    padding: 23px;
+    padding: 25px;
 
     transition: .25s;
 
     box-shadow:
-
         0 5px 20px
-
         rgba(20,55,90,.035);
 }
 
 
 .news-card:hover {
-
     transform: translateY(-3px);
 
     box-shadow:
-
         0 12px 30px
-
         rgba(20,55,90,.08);
+
+    border-color: #c8dce6;
 }
 
 
-/* META */
+/* =========================================================
+   NEWS META
+========================================================= */
 
 .news-meta {
-
     display: flex;
 
     align-items: center;
 
     gap: 7px;
 
-    color: #087d85;
+    color: #007f83;
 
-    font-size: 10px;
+    font-size: 11px;
 
     font-weight: 700;
 
-    margin-bottom: 8px;
+    margin-bottom: 9px;
 }
 
 
 .news-dot {
+    width: 7px;
 
-    width: 6px;
+    height: 7px;
 
-    height: 6px;
-
-    background: #13a0a2;
+    background: #00a0a2;
 
     border-radius: 50%;
 }
 
 
-/* TITLE */
+/* =========================================================
+   NEWS TITLES
+========================================================= */
 
 .news-card h4,
 .featured-news h4 {
+    color: #123d5d;
 
-    color: #173f60;
+    font-size: 20px;
 
-    font-size: 18px;
+    line-height: 1.75;
 
-    line-height: 1.7;
-
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 
 .featured-news h4 {
+    font-size: 25px;
 
-    font-size: 23px;
+    line-height: 1.7;
 }
 
 
-/* TEXT */
+/* =========================================================
+   NEWS TEXT
+========================================================= */
 
 .news-card p,
 .featured-news p {
+    color: #526b7d;
 
-    color: #64788b;
+    font-size: 15px;
 
-    font-size: 13px;
-
-    line-height: 2;
+    line-height: 2.15;
 
     display: -webkit-box;
 
@@ -727,39 +679,40 @@ body {
 
     overflow: hidden;
 
-    -webkit-line-clamp: 4;
-}
-
-
-.featured-news p {
-
     -webkit-line-clamp: 5;
 }
 
 
-/* SHARE */
+.featured-news p {
+    font-size: 15.5px;
+
+    -webkit-line-clamp: 6;
+}
+
+
+/* =========================================================
+   SHARE BUTTON
+========================================================= */
 
 .news-actions {
-
-    margin-top: 17px;
+    margin-top: 18px;
 }
 
 
 .share-button {
-
     border: none;
 
-    background: #edf6f7;
+    background: #eaf5f6;
 
-    color: #08777f;
+    color: #006f77;
 
     border-radius: 7px;
 
-    padding: 6px 13px;
+    padding: 7px 14px;
 
     font-family: inherit;
 
-    font-size: 11px;
+    font-size: 12px;
 
     font-weight: 700;
 
@@ -770,8 +723,9 @@ body {
 
 
 .share-button:hover {
+    background: #d8edef;
 
-    background: #dceff1;
+    transform: translateY(-1px);
 }
 
 
@@ -780,34 +734,31 @@ body {
 ========================================================= */
 
 .country-heading {
-
     display: flex;
 
     align-items: center;
 
-    gap: 10px;
+    gap: 11px;
 
     margin:
-
-        25px
-
+        27px
         0
-
-        15px;
+        16px;
 }
 
 
 .country-icon {
+    width: 38px;
 
-    width: 35px;
-
-    height: 35px;
+    height: 38px;
 
     border-radius: 50%;
 
     background: #e7f2f7;
 
-    color: #0a567e;
+    color: #07557d;
+
+    border: 1px solid #d3e5ed;
 
     display: flex;
 
@@ -822,10 +773,11 @@ body {
 
 
 .country-heading h4 {
+    color: #31536c;
 
-    color: #34536d;
+    font-size: 20px;
 
-    font-size: 18px;
+    line-height: 1.5;
 }
 
 
@@ -834,14 +786,13 @@ body {
 ========================================================= */
 
 .empty-state {
+    background: #ffffff;
 
-    background: white;
-
-    border: 1px dashed #cbd9e5;
+    border: 1px dashed #c7d8e3;
 
     border-radius: 15px;
 
-    padding: 40px;
+    padding: 45px;
 
     text-align: center;
 
@@ -850,12 +801,14 @@ body {
 
 
 .empty-icon {
+    width: 48px;
 
-    width: 46px;
+    height: 48px;
 
-    height: 46px;
-
-    margin: auto auto 12px;
+    margin:
+        auto
+        auto
+        13px;
 
     border-radius: 50%;
 
@@ -874,20 +827,18 @@ body {
 
 
 .empty-state strong {
-
     display: block;
 
     color: #526e84;
 
-    font-size: 14px;
+    font-size: 16px;
 
-    margin-bottom: 3px;
+    margin-bottom: 5px;
 }
 
 
 .empty-state span {
-
-    font-size: 12px;
+    font-size: 13px;
 }
 
 
@@ -896,29 +847,22 @@ body {
 ========================================================= */
 
 .about {
-
-    background: white;
+    background: #ffffff;
 
     border-top: 1px solid #dce6ed;
 }
 
 
 .about-container {
-
     padding:
-
         50px
-
         0
-
         65px;
 
     display: grid;
 
     grid-template-columns:
-
         1fr
-
         1fr;
 
     gap: 50px;
@@ -926,20 +870,18 @@ body {
 
 
 .section-label {
+    color: #007f83;
 
-    color: #07818a;
-
-    font-size: 13px;
+    font-size: 14px;
 
     font-weight: 800;
 }
 
 
 .about h2 {
+    color: #123d5d;
 
-    color: #163e5e;
-
-    font-size: 26px;
+    font-size: 28px;
 
     line-height: 1.6;
 
@@ -948,10 +890,11 @@ body {
 
 
 .about p {
+    color: #62788a;
 
-    color: #697d90;
+    font-size: 15px;
 
-    font-size: 14px;
+    line-height: 2.1;
 
     margin-top: 20px;
 }
@@ -962,15 +905,13 @@ body {
 ========================================================= */
 
 footer {
-
-    background: #103b5c;
+    background: #003b64;
 
     color: #c7d7e3;
 }
 
 
 .footer-container {
-
     min-height: 75px;
 
     display: flex;
@@ -982,94 +923,90 @@ footer {
 
 
 .footer-logo {
-
     font-family: Arial, sans-serif;
 
-    font-size: 20px;
+    font-size: 21px;
 
     font-weight: 900;
 }
 
 
 .footer-logo span {
-
-    color: #17a4a5;
+    color: #00a3a3;
 }
 
 
 .footer-container p {
-
-    font-size: 11px;
+    font-size: 12px;
 }
 
 
 /* =========================================================
-   RESPONSIVE
+   RESPONSIVE - TABLET
 ========================================================= */
 
-@media(max-width: 900px) {
+@media (max-width: 900px) {
 
     .highlights {
-
         grid-template-columns:
             repeat(2, 1fr);
     }
 
 
     .news-grid {
-
         grid-template-columns: 1fr;
     }
 
 
     .about-container {
-
         grid-template-columns: 1fr;
     }
 
 }
 
 
-@media(max-width: 600px) {
+/* =========================================================
+   RESPONSIVE - MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
 
     .site-header {
-
         height: auto;
     }
 
 
     .header-container {
-
         padding: 13px 0;
     }
 
 
     .navigation {
-
         display: none;
     }
 
 
     .hero-container {
-
-        padding: 45px 0 28px;
+        padding:
+            45px
+            0
+            30px;
     }
 
 
     .hero h1 {
-
-        font-size: 34px;
+        font-size: 36px;
     }
 
 
     .hero p {
+        font-size: 15px;
 
-        font-size: 14px;
+        line-height: 2;
     }
 
 
     .newsletter-tabs {
-
         display: grid;
 
         grid-template-columns:
@@ -1078,15 +1015,21 @@ footer {
 
 
     .newsletter-tab {
+        font-size: 12px;
 
-        font-size: 11px;
+        padding: 11px;
+    }
 
-        padding: 10px;
+
+    .newsletter-container {
+        padding:
+            40px
+            0
+            65px;
     }
 
 
     .issue-header {
-
         flex-direction: column;
 
         align-items: flex-start;
@@ -1094,49 +1037,94 @@ footer {
 
 
     .issue-header h2 {
-
-        font-size: 23px;
+        font-size: 25px;
     }
 
 
     .newsletter-intro {
+        padding: 24px;
+    }
 
-        padding: 22px;
+
+    .newsletter-intro h3 {
+        font-size: 21px;
+    }
+
+
+    .newsletter-intro > p {
+        font-size: 14.5px;
     }
 
 
     .highlights {
-
         grid-template-columns: 1fr;
     }
 
 
-    .featured-news {
+    .highlight {
+        font-size: 13.5px;
+    }
 
-        padding: 22px;
+
+    .featured-news {
+        padding: 24px;
     }
 
 
     .featured-news h4 {
+        font-size: 21px;
+    }
 
-        font-size: 19px;
+
+    .featured-news p {
+        font-size: 14.5px;
     }
 
 
     .news-card {
+        padding: 21px;
+    }
 
-        padding: 20px;
+
+    .news-card h4 {
+        font-size: 18px;
+    }
+
+
+    .news-card p {
+        font-size: 14px;
     }
 
 
     .section-heading h3 {
+        font-size: 22px;
+    }
 
-        font-size: 20px;
+
+    .country-heading h4 {
+        font-size: 18px;
+    }
+
+
+    .about-container {
+        padding:
+            40px
+            0
+            50px;
+    }
+
+
+    .about h2 {
+        font-size: 25px;
+    }
+
+
+    .about p {
+        font-size: 14px;
     }
 
 
     .footer-container {
-
         flex-direction: column;
 
         justify-content: center;
