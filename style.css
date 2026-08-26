@@ -4,8 +4,6 @@
 ========================================================= */
 
 :root {
-
-    /* ELP STYLE BLUE */
     --elp-blue: #075b8f;
     --elp-dark-blue: #06466e;
     --elp-deep-blue: #043c5d;
@@ -13,8 +11,8 @@
     --elp-light-blue: #eaf5fb;
     --elp-soft-blue: #f4f9fc;
 
-    --text-dark: #1b2733;
-    --text-body: #394957;
+    --text-dark: #172633;
+    --text-body: #334756;
     --text-muted: #687987;
 
     --white: #ffffff;
@@ -42,18 +40,20 @@ html {
 }
 
 body {
-
     background: #f7fafc;
-
     color: var(--text-body);
 
-    font-family: "Cairo", "Tajawal", sans-serif;
+    /* أوضح من الخط القديم */
+    font-family: "Tajawal", "Cairo", sans-serif;
 
     font-size: 17px;
+    font-weight: 500;
 
-    line-height: 2;
+    line-height: 1.9;
 
     direction: rtl;
+
+    -webkit-font-smoothing: antialiased;
 }
 
 
@@ -62,13 +62,11 @@ body {
 ========================================================= */
 
 .site-header {
-
     background: var(--white);
 
     border-bottom: 3px solid var(--elp-blue);
 
     position: sticky;
-
     top: 0;
 
     z-index: 1000;
@@ -78,7 +76,6 @@ body {
 
 
 .header-inner {
-
     max-width: 1200px;
 
     margin: auto;
@@ -97,8 +94,11 @@ body {
 }
 
 
-.brand {
+/* =========================================================
+   BRAND
+========================================================= */
 
+.brand {
     display: flex;
 
     align-items: center;
@@ -108,9 +108,7 @@ body {
 
 
 .brand-mark {
-
     width: 53px;
-
     height: 53px;
 
     background: var(--elp-blue);
@@ -122,7 +120,6 @@ body {
     display: flex;
 
     align-items: center;
-
     justify-content: center;
 
     font-family: Arial, sans-serif;
@@ -136,7 +133,6 @@ body {
 
 
 .brand-text {
-
     display: flex;
 
     flex-direction: column;
@@ -146,15 +142,15 @@ body {
 
 
 .brand-text span {
-
     font-size: 13px;
 
     color: var(--text-muted);
+
+    font-weight: 500;
 }
 
 
 .brand-text strong {
-
     color: var(--elp-dark-blue);
 
     font-size: 17px;
@@ -164,11 +160,10 @@ body {
 
 
 /* =========================================================
-   NAV
+   NAVIGATION
 ========================================================= */
 
 .main-nav {
-
     display: flex;
 
     align-items: center;
@@ -178,14 +173,13 @@ body {
 
 
 .main-nav a {
-
     text-decoration: none;
 
     color: #475866;
 
     font-size: 14px;
 
-    font-weight: 600;
+    font-weight: 700;
 
     padding: 9px 15px;
 
@@ -197,7 +191,6 @@ body {
 
 .main-nav a:hover,
 .main-nav a.active {
-
     color: var(--elp-blue);
 
     background: var(--elp-light-blue);
@@ -209,9 +202,7 @@ body {
 ========================================================= */
 
 .newsletter-hero {
-
     background:
-
         linear-gradient(
             135deg,
             var(--elp-deep-blue),
@@ -227,27 +218,23 @@ body {
 
 
 .newsletter-hero::after {
-
     content: "";
 
     position: absolute;
 
     width: 350px;
-
     height: 350px;
 
-    border: 70px solid rgba(255,255,255,0.06);
+    border: 70px solid rgba(255, 255, 255, 0.06);
 
     border-radius: 50%;
 
     left: -100px;
-
     top: -170px;
 }
 
 
 .hero-content {
-
     max-width: 1200px;
 
     margin: auto;
@@ -260,31 +247,38 @@ body {
 }
 
 
-.breadcrumb {
+/* =========================================================
+   BREADCRUMB
+========================================================= */
 
+.breadcrumb {
     font-size: 13px;
 
-    color: rgba(255,255,255,0.78);
+    color: rgba(255, 255, 255, 0.78);
 
     margin-bottom: 25px;
+
+    font-weight: 500;
 }
 
 
 .breadcrumb span {
-
     padding: 0 8px;
 
     opacity: 0.6;
 }
 
 
-.newsletter-label {
+/* =========================================================
+   NEWSLETTER LABEL
+========================================================= */
 
+.newsletter-label {
     display: inline-block;
 
-    background: rgba(255,255,255,0.12);
+    background: rgba(255, 255, 255, 0.12);
 
-    border: 1px solid rgba(255,255,255,0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 
     padding: 5px 15px;
 
@@ -292,12 +286,17 @@ body {
 
     font-size: 14px;
 
+    font-weight: 600;
+
     margin-bottom: 13px;
 }
 
 
-.hero-content h1 {
+/* =========================================================
+   HERO TITLE
+========================================================= */
 
+.hero-content h1 {
     font-size: clamp(30px, 4vw, 46px);
 
     font-weight: 800;
@@ -308,34 +307,35 @@ body {
 }
 
 
-.issue-meta {
+/* =========================================================
+   ISSUE DATE
+========================================================= */
 
+.issue-meta {
     display: flex;
 
     align-items: center;
 
     gap: 9px;
 
-    color: rgba(255,255,255,0.88);
+    color: rgba(255, 255, 255, 0.9);
 
     font-size: 15px;
 
-    font-weight: 500;
+    font-weight: 600;
 }
 
 
 .meta-icon {
-
     font-size: 19px;
 }
 
 
 /* =========================================================
-   CONTAINER
+   MAIN CONTAINER
 ========================================================= */
 
 .container {
-
     max-width: 1120px;
 
     margin: auto;
@@ -349,13 +349,11 @@ body {
 ========================================================= */
 
 .newsletter-section {
-
     margin-bottom: 65px;
 }
 
 
 .section-heading {
-
     display: flex;
 
     align-items: center;
@@ -367,9 +365,7 @@ body {
 
 
 .section-number {
-
     width: 48px;
-
     height: 48px;
 
     flex-shrink: 0;
@@ -383,7 +379,6 @@ body {
     display: flex;
 
     align-items: center;
-
     justify-content: center;
 
     font-family: Arial, sans-serif;
@@ -397,12 +392,11 @@ body {
 
 
 .section-kicker {
-
     color: var(--elp-blue);
 
     font-size: 13px;
 
-    font-weight: 700;
+    font-weight: 800;
 
     margin-bottom: 0;
 
@@ -411,7 +405,6 @@ body {
 
 
 .section-heading h2 {
-
     color: var(--elp-deep-blue);
 
     font-size: 28px;
@@ -423,11 +416,10 @@ body {
 
 
 /* =========================================================
-   INTRO
+   INTRODUCTION
 ========================================================= */
 
 .intro-card {
-
     background: white;
 
     border: 1px solid var(--border);
@@ -443,7 +435,6 @@ body {
 
 
 .intro-title {
-
     color: var(--text-dark);
 
     font-size: 18px;
@@ -457,7 +448,6 @@ body {
 
 
 .intro-title strong {
-
     color: var(--elp-blue);
 
     font-weight: 800;
@@ -465,7 +455,6 @@ body {
 
 
 .intro-list {
-
     list-style: none;
 
     display: grid;
@@ -475,21 +464,21 @@ body {
 
 
 .intro-list li {
-
     position: relative;
 
     padding-right: 25px;
 
     color: var(--text-body);
 
-    font-size: 16px;
+    font-size: 16.5px;
+
+    font-weight: 500;
 
     line-height: 1.9;
 }
 
 
 .intro-list li::before {
-
     content: "";
 
     position: absolute;
@@ -499,7 +488,6 @@ body {
     top: 14px;
 
     width: 8px;
-
     height: 8px;
 
     border-radius: 50%;
@@ -513,7 +501,6 @@ body {
 ========================================================= */
 
 .share-bar {
-
     background: var(--white);
 
     border: 1px solid var(--border);
@@ -537,7 +524,6 @@ body {
 
 
 .share-bar > span {
-
     color: var(--elp-deep-blue);
 
     font-size: 15px;
@@ -547,7 +533,6 @@ body {
 
 
 .share-buttons {
-
     display: flex;
 
     gap: 10px;
@@ -555,7 +540,6 @@ body {
 
 
 .share {
-
     border: none;
 
     color: white;
@@ -582,12 +566,13 @@ body {
 
     gap: 8px;
 
-    transition: transform 0.2s ease, opacity 0.2s ease;
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
 }
 
 
 .share:hover {
-
     transform: translateY(-2px);
 
     opacity: 0.9;
@@ -595,19 +580,16 @@ body {
 
 
 .share.facebook {
-
     background: #1877f2;
 }
 
 
 .share.twitter {
-
     background: #111111;
 }
 
 
 .share span {
-
     font-size: 17px;
 
     line-height: 1;
@@ -619,13 +601,11 @@ body {
 ========================================================= */
 
 .country-block {
-
     margin-bottom: 45px;
 }
 
 
 .country-title {
-
     display: flex;
 
     align-items: center;
@@ -637,7 +617,6 @@ body {
 
 
 .country-title h3 {
-
     color: var(--elp-blue);
 
     font-size: 21px;
@@ -649,7 +628,6 @@ body {
 
 
 .country-line {
-
     height: 1px;
 
     background: #cddde7;
@@ -663,7 +641,6 @@ body {
 ========================================================= */
 
 .news-card {
-
     background: white;
 
     border: 1px solid var(--border);
@@ -676,14 +653,14 @@ body {
 
     position: relative;
 
-    box-shadow: 0 4px 16px rgba(4,60,93,0.04);
+    box-shadow:
+        0 4px 16px rgba(4, 60, 93, 0.04);
 
     transition: 0.25s ease;
 }
 
 
 .news-card::before {
-
     content: "";
 
     position: absolute;
@@ -691,7 +668,6 @@ body {
     right: 0;
 
     top: 20px;
-
     bottom: 20px;
 
     width: 3px;
@@ -703,17 +679,16 @@ body {
 
 
 .news-card:hover {
-
     transform: translateY(-2px);
 
-    box-shadow: 0 9px 25px rgba(4,60,93,0.09);
+    box-shadow:
+        0 9px 25px rgba(4, 60, 93, 0.09);
 
     border-color: #c4dbe8;
 }
 
 
 .news-card h4 {
-
     color: var(--elp-deep-blue);
 
     font-size: 19px;
@@ -729,12 +704,11 @@ body {
 
 
 .news-card p {
-
     color: var(--text-body);
 
-    font-size: 16.5px;
+    font-size: 17px;
 
-    font-weight: 400;
+    font-weight: 500;
 
     line-height: 2.05;
 
@@ -747,12 +721,12 @@ body {
 ========================================================= */
 
 .featured-article {
-
-    background: linear-gradient(
-        135deg,
-        #ffffff,
-        var(--elp-soft-blue)
-    );
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff,
+            var(--elp-soft-blue)
+        );
 
     border: 1px solid var(--border);
 
@@ -769,27 +743,24 @@ body {
 
 
 .featured-article::after {
-
     content: "§";
 
     position: absolute;
 
     left: 30px;
-
     bottom: -40px;
 
     font-family: Georgia, serif;
 
     font-size: 180px;
 
-    color: rgba(7,91,143,0.04);
+    color: rgba(7, 91, 143, 0.04);
 
     pointer-events: none;
 }
 
 
 .article-tag {
-
     display: inline-block;
 
     background: var(--elp-light-blue);
@@ -802,14 +773,13 @@ body {
 
     font-size: 13px;
 
-    font-weight: 700;
+    font-weight: 800;
 
     margin-bottom: 14px;
 }
 
 
 .featured-article h3 {
-
     color: var(--elp-deep-blue);
 
     font-size: 24px;
@@ -823,22 +793,22 @@ body {
 
 
 .article-author {
-
     color: var(--elp-blue);
 
     font-size: 14px;
 
-    font-weight: 600;
+    font-weight: 700;
 
     margin-bottom: 20px;
 }
 
 
 .featured-article > p:not(.article-author) {
-
     color: var(--text-body);
 
     font-size: 17px;
+
+    font-weight: 500;
 
     line-height: 2.1;
 
@@ -846,8 +816,11 @@ body {
 }
 
 
-.read-more {
+/* =========================================================
+   READ MORE
+========================================================= */
 
+.read-more {
     margin-top: 25px;
 
     border: none;
@@ -860,11 +833,11 @@ body {
 
     border-radius: 7px;
 
-    font-family: "Cairo", sans-serif;
+    font-family: "Tajawal", "Cairo", sans-serif;
 
     font-size: 14px;
 
-    font-weight: 700;
+    font-weight: 800;
 
     cursor: pointer;
 
@@ -873,13 +846,13 @@ body {
 
 
 .read-more:hover {
-
     background: var(--elp-deep-blue);
+
+    transform: translateY(-1px);
 }
 
 
 .read-more span {
-
     margin-right: 8px;
 }
 
@@ -889,7 +862,6 @@ body {
 ========================================================= */
 
 .footer {
-
     background: var(--elp-deep-blue);
 
     color: white;
@@ -897,7 +869,6 @@ body {
 
 
 .footer-inner {
-
     max-width: 1120px;
 
     margin: auto;
@@ -915,7 +886,6 @@ body {
 
 
 .footer strong {
-
     font-family: Arial, sans-serif;
 
     font-size: 25px;
@@ -925,16 +895,14 @@ body {
 
 
 .footer p {
-
-    color: rgba(255,255,255,0.72);
+    color: rgba(255, 255, 255, 0.72);
 
     font-size: 13px;
 }
 
 
 .footer-date {
-
-    color: rgba(255,255,255,0.72);
+    color: rgba(255, 255, 255, 0.72);
 
     text-align: left;
 
@@ -951,7 +919,6 @@ body {
 @media (max-width: 850px) {
 
     .header-inner {
-
         flex-direction: column;
 
         justify-content: center;
@@ -963,7 +930,6 @@ body {
 
 
     .main-nav {
-
         width: 100%;
 
         overflow-x: auto;
@@ -973,25 +939,21 @@ body {
 
 
     .main-nav a {
-
         white-space: nowrap;
     }
 
 
     .hero-content {
-
         padding: 40px 20px 45px;
     }
 
 
     .container {
-
         padding: 40px 18px 60px;
     }
 
 
     .share-bar {
-
         flex-direction: column;
 
         align-items: stretch;
@@ -1001,32 +963,27 @@ body {
 
 
     .share-buttons {
-
         justify-content: center;
     }
 
 
     .country-title h3 {
-
         font-size: 18px;
     }
 
 
     .news-card {
-
         padding: 23px 24px;
     }
 
 
     .news-card h4 {
-
         font-size: 18px;
     }
 
 
     .news-card p {
-
-        font-size: 16px;
+        font-size: 16.5px;
 
         text-align: right;
     }
@@ -1036,31 +993,26 @@ body {
 @media (max-width: 550px) {
 
     body {
-
         font-size: 16px;
     }
 
 
     .brand-text {
-
         display: none;
     }
 
 
     .hero-content h1 {
-
         font-size: 29px;
     }
 
 
     .section-heading h2 {
-
         font-size: 23px;
     }
 
 
     .section-number {
-
         width: 42px;
 
         height: 42px;
@@ -1068,19 +1020,16 @@ body {
 
 
     .intro-card {
-
         padding: 23px 20px;
     }
 
 
     .intro-title {
-
         font-size: 16px;
     }
 
 
     .share-buttons {
-
         flex-direction: column;
 
         width: 100%;
@@ -1088,31 +1037,26 @@ body {
 
 
     .share {
-
         width: 100%;
     }
 
 
     .country-title {
-
         gap: 9px;
     }
 
 
     .country-line {
-
         display: none;
     }
 
 
     .news-card {
-
         padding: 21px 20px;
     }
 
 
     .news-card h4 {
-
         font-size: 17px;
 
         line-height: 1.8;
@@ -1120,30 +1064,30 @@ body {
 
 
     .news-card p {
-
-        font-size: 15.5px;
+        font-size: 16px;
 
         line-height: 2;
     }
 
 
     .featured-article {
-
         padding: 25px 20px;
     }
 
 
     .featured-article h3 {
-
         font-size: 20px;
     }
 
 
     .footer-inner {
-
         flex-direction: column;
 
         align-items: flex-start;
     }
 
+
+    .footer-date {
+        text-align: right;
+    }
 }
