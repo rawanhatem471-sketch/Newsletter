@@ -21,25 +21,18 @@ const newsletters = [
         typeName: "النشرة المصرية",
         title: "الأسبوع الثالث من يوليو 2026",
         number: "الأسبوع 03",
-        date: "19 يوليو 2026",
+        date: "26 يوليو 2026",
 
         intro:
             "مرحباً بكم في نشرة البوابة القانونية للتشريعات المصرية، حيث نتابع هذا الأسبوع أهم المستجدات التشريعية والأخبار القانونية وما يحدث في المجتمع القانوني.",
 
         highlights: [
-
             "صدق السيد رئيس الجمهورية على قانون الموازنة ومنح السيد وزير المالية صلاحيات أوسع لإدارة الدين وإصدار أدوات التمويل",
-
             "استعرض السيد رئيس الوزراء تقريراً للجنة الطبية العليا والاستغاثات لقافلة طبية شاملة تم تنظيمها بمحافظة المنوفية",
-
             "بحث السيد وزير الكهرباء مع السفير البريطاني تعزيز التعاون في الطاقة المتجددة وتحديث الشبكات",
-
             "وقعت وزارة العدل بروتوكولين مع البنك الأهلي وبنك مصر لافتتاح فروع توثيق داخل البنوك",
-
             "تابع السيد رئيس مجلس الوزراء مستجدات مشروع الأجهزة التعويضية وجهود إنشاء مجمع صناعي للأطراف الصناعية",
-
             "تابع السيد رئيس مجلس الوزراء مستجدات تنفيذ خطة تخارج الدولة من عدد من الشركات الحكومية"
-
         ],
 
         sections: [
@@ -48,17 +41,14 @@ const newsletters = [
                 title: "أجندة تشريعية",
 
                 featured: {
-
                     title:
                         "صدق السيد رئيس الجمهورية على قانون الموازنة ومنح السيد وزير المالية صلاحيات أوسع لإدارة الدين وإصدار أدوات التمويل",
 
                     text:
                         "صدق السيد رئيس الجمهورية على قانون ربط الموازنة العامة للدولة للعام المالي 2026-2027، ومنح السيد وزير المالية صلاحيات أوسع لإدارة الدين العام وتوفير احتياجات التمويل، من خلال إتاحة أدوات دين محلية ودولية، والتعاقد على قروض أجنبية واستخدام بعض الموارد المالية في خفض أعباء الدين."
-
                 },
 
                 cards: [
-
                     {
                         title:
                             "استعرض السيد رئيس الوزراء تقريراً للجنة الطبية العليا والاستغاثات لقافلة طبية شاملة تم تنظيمها بمحافظة المنوفية",
@@ -66,16 +56,13 @@ const newsletters = [
                         text:
                             "استعرض السيد رئيس الوزراء تقريراً حول جهود القافلة الطبية الشاملة التي نظمتها اللجنة الطبية العليا والاستغاثات بمجلس الوزراء بالتعاون والتنسيق مع مؤسسة بنك الشفاء المصري."
                     }
-
                 ]
             },
-
 
             {
                 title: "أهم الأخبار",
 
                 cards: [
-
                     {
                         title:
                             "بحث السيد وزير الكهرباء مع السفير البريطاني تعزيز التعاون في الطاقة المتجددة وتحديث الشبكات",
@@ -107,16 +94,13 @@ const newsletters = [
                         text:
                             "تابع السيد رئيس الوزراء جهود وإجراءات إصلاح وإعادة هيكلة الشركات المملوكة للدولة ومستجدات تنفيذ خطة تخارج الدولة من عدد من الشركات الحكومية."
                     }
-
                 ]
             },
-
 
             {
                 title: "ما يحدث في المجتمع القانوني",
 
                 cards: [
-
                     {
                         title:
                             "الحصول على حكم لصالح موكل بمحاكم مركز دبي المالي العالمي (DIFC)",
@@ -124,16 +108,13 @@ const newsletters = [
                         text:
                             "أعلن مكتب معتوق بسيوني عن الحصول على حكم لصالح موكله بمحاكم مركز دبي المالي العالمي، وباسترداد أكثر من 11 مليون درهم إماراتي."
                     }
-
                 ]
             },
-
 
             {
                 title: "مقالات قانونية",
 
                 cards: [
-
                     {
                         title:
                             "الاستثمار الرياضي: ما بين تطلعات الأندية وآمال الجمهور",
@@ -141,10 +122,8 @@ const newsletters = [
                         text:
                             "يتناول المقال التحديات القانونية والواقعية للاستثمار في الأندية الرياضية في مصر، وإشكاليات الملكية والرقابة والتنظيم."
                     }
-
                 ]
             }
-
         ]
     },
 
@@ -165,23 +144,14 @@ const newsletters = [
             "مرحباً بكم في نشرة البوابة القانونية للتشريعات المصرية، حيث نتابع هذا الأسبوع أهم المستجدات التشريعية والأخبار القانونية وما يحدث في المجتمع القانوني.",
 
         highlights: [
-
             "تمويل المرحلة الجديدة من إصلاح منظومة التأمين الصحي الشامل",
-
             "تحت مظلة المبادرة الرئاسية «صحتك سعادة» لتعزيز الصحة النفسية",
-
             "أطلق البنك المركزي ووزارة الخارجية والتعاون الدولي مبادرة «حدث بياناتك في مصر»",
-
             "بحثا وزيرا الإنتاج الحربي والاستثمار سبل تعزيز التعاون المشترك",
-
             "أطلقت الحكومة المصرية مبادرة «معاشك بكرة بالدولار» للمصريين بالخارج",
-
             "أطلقت الحكومة نظام الإيجار التمليكي للأراضي الصناعية",
-
             "متابعة مستجدات مشروع تعديل قانون البناء بشأن تنظيم اتحاد الشاغلين",
-
             "الاستثمارات الصينية في مصر تتجاوز 10 مليار دولار"
-
         ],
 
         sections: [
@@ -190,17 +160,14 @@ const newsletters = [
                 title: "أجندة تشريعية",
 
                 featured: {
-
                     title:
                         "تمويل المرحلة الجديدة من إصلاح منظومة التأمين الصحي الشامل",
 
                     text:
                         "وافق مجلس الوزراء على مشروع قرار رئيس الجمهورية بشأن اتفاق تمويل المرحلة الجديدة من إصلاح منظومة التأمين الصحي الشامل مع الوكالة الفرنسية للتنمية. ويهدف الاتفاق إلى دعم التحول المنهجي للمنظومة، وتعزيز الحوكمة التشغيلية والاستراتيجية، وتسهيل تخطيط الميزانية لتحقيق الاستدامة المالية."
-
                 },
 
                 cards: [
-
                     {
                         title:
                             "تحت مظلة المبادرة الرئاسية «صحتك سعادة» لتعزيز الصحة النفسية",
@@ -216,16 +183,13 @@ const newsletters = [
                         text:
                             "أعلنت وزارة التربية والتعليم والتعليم الفني انطلاق الدراسة بـ5 مدارس مصرية إيطالية للتكنولوجيا التطبيقية بدءاً من العام الدراسي 2026/2027."
                     }
-
                 ]
             },
-
 
             {
                 title: "أهم الأخبار",
 
                 cards: [
-
                     {
                         title:
                             "بحثا وزيرا الإنتاج الحربي والاستثمار سبل تعزيز التعاون المشترك",
@@ -265,16 +229,13 @@ const newsletters = [
                         text:
                             "أكد رئيس مجلس الوزراء أن الاستثمارات الصينية في مصر تجاوزت 10 مليارات دولار."
                     }
-
                 ]
             },
-
 
             {
                 title: "ما يحدث في المجتمع القانوني",
 
                 cards: [
-
                     {
                         title:
                             "لا توجد أخبار جديدة في هذا القسم",
@@ -282,16 +243,13 @@ const newsletters = [
                         text:
                             "سيتم عرض المحتوى عند توفره."
                     }
-
                 ]
             },
-
 
             {
                 title: "مقالات قانونية",
 
                 cards: [
-
                     {
                         title:
                             "لا توجد مقالات جديدة في هذا العدد",
@@ -299,10 +257,8 @@ const newsletters = [
                         text:
                             "سيتم عرض المحتوى عند توفره."
                     }
-
                 ]
             }
-
         ]
     },
 
@@ -313,31 +269,26 @@ const newsletters = [
 
     {
         id: "arab-83",
+
         type: "arab",
+
         typeName: "النشرة القانونية العربية",
+
         title: "العدد الثالث والثمانون",
+
         number: "العدد 83",
+
         date: "19 يوليو 2026",
 
         intro:
             "مرحباً بكم في العدد الثالث والثمانون للنشرة القانونية العربية، التي تتناول أهم التشريعات والأخبار القانونية وما يحدث في المجتمع القانوني العربي في الأردن والمملكة العربية السعودية والإمارات العربية المتحدة.",
 
         highlights: [
-
-            "تعديل أحكام الإجازة بدون راتب لتصبح أكثر مرونة لموظفي القطاع العام",
-
-            "تأسيس صندوق الحماية والرعاية الاجتماعية",
-
-            "11 قراراً لدعم القطاع السياحي في البترا",
-
-            "اللائحة التنفيذية لمكافحة الغش التجاري في الإمارات",
-
-            "جهود وطنية في مكافحة الاتجار بالأشخاص",
-
-            "برنامج «تطوير السياسات» المدعوم بالذكاء الاصطناعي",
-
-            "مركز المراقبة والتحكم للممرات المائية لتعزيز السلامة البحرية"
-
+            "أهم المستجدات التشريعية والقانونية في الأردن",
+            "أهم المستجدات القانونية في المملكة العربية السعودية",
+            "أهم المستجدات التشريعية في دولة الإمارات العربية المتحدة",
+            "متابعة أبرز الأخبار في المجتمع القانوني العربي",
+            "أهم التطورات الحكومية والقانونية في المنطقة"
         ],
 
         sections: [
@@ -506,6 +457,7 @@ const newsletters = [
 
             {
                 title: "مقالات قانونية",
+
                 empty: true
             }
 
@@ -526,11 +478,11 @@ function getSavedArticles() {
 
     try {
 
-        const saved =
+        const data =
             localStorage.getItem(SAVED_KEY);
 
-        return saved
-            ? JSON.parse(saved)
+        return data
+            ? JSON.parse(data)
             : [];
 
     } catch (error) {
@@ -544,10 +496,21 @@ function getSavedArticles() {
 
 function saveSavedArticles(items) {
 
-    localStorage.setItem(
-        SAVED_KEY,
-        JSON.stringify(items)
-    );
+    try {
+
+        localStorage.setItem(
+            SAVED_KEY,
+            JSON.stringify(items)
+        );
+
+    } catch (error) {
+
+        console.error(
+            "Could not save articles:",
+            error
+        );
+
+    }
 
 }
 
@@ -557,7 +520,11 @@ function articleKey(
     title
 ) {
 
-    return newsletterId + "::" + title;
+    return (
+        newsletterId +
+        "::" +
+        title
+    );
 
 }
 
@@ -619,11 +586,9 @@ function toggleSaveArticle(
 
             id: id,
 
-            title:
-                article.title,
+            title: article.title,
 
-            text:
-                article.text,
+            text: article.text,
 
             newsletterId:
                 newsletterId,
@@ -717,9 +682,7 @@ function shareNews(title) {
 
             text: title
 
-        }).catch(
-            () => {}
-        );
+        }).catch(() => {});
 
     } else if (
         navigator.clipboard
@@ -731,6 +694,13 @@ function shareNews(title) {
 
                 alert(
                     "تم نسخ عنوان الخبر"
+                );
+
+            })
+            .catch(() => {
+
+                alert(
+                    "تعذر نسخ عنوان الخبر"
                 );
 
             });
@@ -769,7 +739,6 @@ function createCard(
                 ? "featured-news"
                 : "news-card"}">
 
-
             <div class="news-meta">
 
                 <span class="news-dot"></span>
@@ -793,16 +762,11 @@ function createCard(
 
             <div class="news-actions">
 
-
                 <button
+                    type="button"
                     class="save-button ${saved ? "saved" : ""}"
                     data-newsletter="${newsletterId}"
-                    data-title="${news.title}"
-                    onclick='toggleSaveArticle(
-                        ${JSON.stringify(news)},
-                        ${JSON.stringify(newsletterId)},
-                        ${JSON.stringify(newsletterTitle)}
-                    )'>
+                    data-title="${escapeHtmlAttribute(news.title)}">
 
                     ${saved
                         ? "✓ محفوظ"
@@ -812,22 +776,35 @@ function createCard(
 
 
                 <button
+                    type="button"
                     class="share-button"
-                    onclick='shareNews(
-                        ${JSON.stringify(news.title)}
-                    )'>
+                    data-share-title="${escapeHtmlAttribute(news.title)}">
 
                     مشاركة الآن ↗
 
                 </button>
 
-
             </div>
-
 
         </article>
 
     `;
+
+}
+
+
+/* =========================================================
+   ESCAPE HTML ATTRIBUTE
+========================================================= */
+
+function escapeHtmlAttribute(value) {
+
+    return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
 
 }
 
@@ -912,14 +889,13 @@ function createSection(
                 <div class="news-grid">
 
                     ${section.cards
-                        .map(
-                            card =>
-                                createCard(
-                                    card,
-                                    false,
-                                    newsletterId,
-                                    newsletterTitle
-                                )
+                        .map(card =>
+                            createCard(
+                                card,
+                                false,
+                                newsletterId,
+                                newsletterTitle
+                            )
                         )
                         .join("")}
 
@@ -934,10 +910,7 @@ function createSection(
 
     /* COUNTRIES */
 
-    if (
-        section.countries &&
-        section.countries.length
-    ) {
+    if (section.countries) {
 
         section.countries
             .forEach(country => {
@@ -956,18 +929,16 @@ function createSection(
 
                     </div>
 
-
                     <div class="news-grid">
 
                         ${country.cards
-                            .map(
-                                card =>
-                                    createCard(
-                                        card,
-                                        false,
-                                        newsletterId,
-                                        newsletterTitle
-                                    )
+                            .map(card =>
+                                createCard(
+                                    card,
+                                    false,
+                                    newsletterId,
+                                    newsletterTitle
+                                )
                             )
                             .join("")}
 
@@ -985,8 +956,7 @@ function createSection(
     if (
         !section.featured &&
         !section.countries &&
-        section.cards &&
-        section.cards.length
+        section.cards
     ) {
 
         html += `
@@ -994,14 +964,13 @@ function createSection(
             <div class="news-grid">
 
                 ${section.cards
-                    .map(
-                        card =>
-                            createCard(
-                                card,
-                                false,
-                                newsletterId,
-                                newsletterTitle
-                            )
+                    .map(card =>
+                        createCard(
+                            card,
+                            false,
+                            newsletterId,
+                            newsletterTitle
+                        )
                     )
                     .join("")}
 
@@ -1031,10 +1000,7 @@ function createArchiveCard(
 
         <a
             class="archive-card"
-            href="newsletter.html?id=${encodeURIComponent(
-                newsletter.id
-            )}">
-
+            href="newsletter.html?id=${encodeURIComponent(newsletter.id)}">
 
             <div>
 
@@ -1069,13 +1035,11 @@ function createArchiveCard(
                     قراءة النشرة
                 </span>
 
-
                 <span class="archive-card-arrow">
                     ←
                 </span>
 
             </div>
-
 
         </a>
 
@@ -1102,7 +1066,11 @@ function renderSavedArticles() {
         );
 
 
-    if (!list) return;
+    if (!list) {
+
+        return;
+
+    }
 
 
     const saved =
@@ -1143,66 +1111,52 @@ function renderSavedArticles() {
 
     list.innerHTML =
         saved
-            .map(
-                article => `
+            .map(article => `
 
-                    <article class="saved-card">
+                <article class="saved-card">
 
-                        <div class="saved-card-meta">
-                            ${article.newsletterTitle}
-                        </div>
-
-
-                        <h4>
-                            ${article.title}
-                        </h4>
+                    <div class="saved-card-meta">
+                        ${article.newsletterTitle}
+                    </div>
 
 
-                        <p>
-                            ${article.text}
-                        </p>
+                    <h4>
+                        ${article.title}
+                    </h4>
 
 
-                        <div class="saved-card-actions">
-
-                            <a
-                                class="saved-read"
-                                href="newsletter.html?id=${encodeURIComponent(
-                                    article.newsletterId
-                                )}">
-
-                                قراءة النشرة ↗
-
-                            </a>
+                    <p>
+                        ${article.text}
+                    </p>
 
 
-                            <button
-                                class="save-button saved"
-                                data-newsletter="${article.newsletterId}"
-                                data-title="${article.title}"
-                                onclick='toggleSaveArticle(
-                                    ${JSON.stringify({
-                                        title: article.title,
-                                        text: article.text
-                                    })},
-                                    ${JSON.stringify(
-                                        article.newsletterId
-                                    )},
-                                    ${JSON.stringify(
-                                        article.newsletterTitle
-                                    )}
-                                )'>
+                    <div class="saved-card-actions">
 
-                                ✓ إزالة من المحفوظات
+                        <a
+                            class="saved-read"
+                            href="newsletter.html?id=${encodeURIComponent(article.newsletterId)}">
 
-                            </button>
+                            قراءة النشرة ↗
 
-                        </div>
+                        </a>
 
-                    </article>
 
-                `
-            )
+                        <button
+                            type="button"
+                            class="save-button saved"
+                            data-remove-id="${escapeHtmlAttribute(article.id)}"
+                            data-newsletter="${escapeHtmlAttribute(article.newsletterId)}"
+                            data-title="${escapeHtmlAttribute(article.title)}">
+
+                            ✓ إزالة من المحفوظات
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+            `)
             .join("");
 
 }
@@ -1222,7 +1176,11 @@ function renderArchive(
         );
 
 
-    if (!archive) return;
+    if (!archive) {
+
+        return;
+
+    }
 
 
     const filtered =
@@ -1232,7 +1190,7 @@ function renderArchive(
         );
 
 
-    /* TITLE */
+    /* ARCHIVE TITLE */
 
     const archiveTitle =
         document.getElementById(
@@ -1250,7 +1208,7 @@ function renderArchive(
     }
 
 
-    /* TYPE */
+    /* ARCHIVE TYPE */
 
     const archiveType =
         document.getElementById(
@@ -1263,12 +1221,12 @@ function renderArchive(
         archiveType.textContent =
             type === "egypt"
                 ? "النشرة المصرية"
-                : "النشرة القانونية العربية";
+                : "النشرة العربية";
 
     }
 
 
-    /* COUNT */
+    /* ARCHIVE COUNT */
 
     const archiveCount =
         document.getElementById(
@@ -1315,12 +1273,7 @@ function renderArchive(
 
     archive.innerHTML =
         filtered
-            .map(
-                newsletter =>
-                    createArchiveCard(
-                        newsletter
-                    )
-            )
+            .map(createArchiveCard)
             .join("");
 
 }
@@ -1339,12 +1292,10 @@ function renderNewsletterPage(
         document.title =
             "النشرة غير موجودة | ELPAI";
 
-
         const sections =
             document.getElementById(
                 "newsletterSections"
             );
-
 
         if (sections) {
 
@@ -1361,7 +1312,7 @@ function renderNewsletterPage(
                     </strong>
 
                     <span>
-                        تأكدي من الرابط أو عودي إلى الأرشيف.
+                        برجاء العودة إلى الأرشيف.
                     </span>
 
                 </div>
@@ -1369,7 +1320,6 @@ function renderNewsletterPage(
             `;
 
         }
-
 
         return;
 
@@ -1460,8 +1410,7 @@ function renderNewsletterPage(
                         <div class="highlight">
 
                             <span class="highlight-number">
-                                ${String(index + 1)
-                                    .padStart(2, "0")}
+                                ${String(index + 1).padStart(2, "0")}
                             </span>
 
                             ${item}
@@ -1479,13 +1428,12 @@ function renderNewsletterPage(
 
         sections.innerHTML =
             newsletter.sections
-                .map(
-                    section =>
-                        createSection(
-                            section,
-                            newsletter.id,
-                            newsletter.title
-                        )
+                .map(section =>
+                    createSection(
+                        section,
+                        newsletter.id,
+                        newsletter.title
+                    )
                 )
                 .join("");
 
@@ -1493,6 +1441,178 @@ function renderNewsletterPage(
 
 
     updateSaveButtons();
+
+}
+
+
+/* =========================================================
+   SETUP BUTTONS
+========================================================= */
+
+function setupDynamicButtons() {
+
+    document.addEventListener(
+        "click",
+        function(event) {
+
+            /* SAVE BUTTON */
+
+            const saveButton =
+                event.target.closest(
+                    ".save-button"
+                );
+
+
+            if (
+                saveButton &&
+                !saveButton.dataset.removeId
+            ) {
+
+                const newsletterId =
+                    saveButton.dataset.newsletter;
+
+                const title =
+                    saveButton.dataset.title;
+
+                const newsletter =
+                    newsletters.find(
+                        item =>
+                            item.id ===
+                            newsletterId
+                    );
+
+
+                if (!newsletter) {
+
+                    return;
+
+                }
+
+
+                let article = null;
+
+
+                newsletter.sections
+                    .forEach(section => {
+
+                        if (
+                            section.featured &&
+                            section.featured.title ===
+                            title
+                        ) {
+
+                            article =
+                                section.featured;
+
+                        }
+
+
+                        if (section.cards) {
+
+                            const found =
+                                section.cards.find(
+                                    card =>
+                                        card.title ===
+                                        title
+                                );
+
+                            if (found) {
+
+                                article = found;
+
+                            }
+
+                        }
+
+
+                        if (section.countries) {
+
+                            section.countries
+                                .forEach(country => {
+
+                                    const found =
+                                        country.cards.find(
+                                            card =>
+                                                card.title ===
+                                                title
+                                        );
+
+                                    if (found) {
+
+                                        article = found;
+
+                                    }
+
+                                });
+
+                        }
+
+                    });
+
+
+                if (article) {
+
+                    toggleSaveArticle(
+                        article,
+                        newsletter.id,
+                        newsletter.title
+                    );
+
+                }
+
+                return;
+
+            }
+
+
+            /* REMOVE SAVED ARTICLE */
+
+            if (
+                saveButton &&
+                saveButton.dataset.removeId
+            ) {
+
+                const id =
+                    saveButton.dataset.removeId;
+
+                const saved =
+                    getSavedArticles()
+                        .filter(
+                            article =>
+                                article.id !== id
+                        );
+
+
+                saveSavedArticles(saved);
+
+                renderSavedArticles();
+
+                updateSaveButtons();
+
+                return;
+
+            }
+
+
+            /* SHARE */
+
+            const shareButton =
+                event.target.closest(
+                    ".share-button"
+                );
+
+
+            if (shareButton) {
+
+                const title =
+                    shareButton.dataset.shareTitle;
+
+                shareNews(title);
+
+            }
+
+        }
+    );
 
 }
 
@@ -1513,14 +1633,15 @@ function setupArchiveTabs() {
 
         tab.addEventListener(
             "click",
-            function () {
+            function() {
 
-                tabs.forEach(
-                    item =>
-                        item.classList.remove(
-                            "active"
-                        )
-                );
+                tabs.forEach(item => {
+
+                    item.classList.remove(
+                        "active"
+                    );
+
+                });
 
 
                 tab.classList.add(
@@ -1545,39 +1666,25 @@ function setupArchiveTabs() {
 
 
 /* =========================================================
-   OPEN NEWSLETTER
-========================================================= */
-
-function openNewsletter(
-    id
-) {
-
-    window.location.href =
-        `newsletter.html?id=${encodeURIComponent(id)}`;
-
-}
-
-
-/* =========================================================
    INITIALIZE
 ========================================================= */
 
 document.addEventListener(
     "DOMContentLoaded",
-    function () {
+    function() {
+
+        console.log(
+            "ELPAI Newsletter JS loaded successfully"
+        );
 
 
-        /* ============================
-           ARCHIVE PAGE
-        ============================ */
+        /* ARCHIVE PAGE */
 
-        const archive =
+        if (
             document.getElementById(
                 "newsletterArchive"
-            );
-
-
-        if (archive) {
+            )
+        ) {
 
             renderArchive(
                 "egypt"
@@ -1590,17 +1697,13 @@ document.addEventListener(
         }
 
 
-        /* ============================
-           NEWSLETTER DETAILS PAGE
-        ============================ */
+        /* NEWSLETTER DETAILS PAGE */
 
-        const newsletterSections =
+        if (
             document.getElementById(
                 "newsletterSections"
-            );
-
-
-        if (newsletterSections) {
+            )
+        ) {
 
             const id =
                 getNewsletterId();
@@ -1618,6 +1721,11 @@ document.addEventListener(
             );
 
         }
+
+
+        /* BUTTONS */
+
+        setupDynamicButtons();
 
     }
 );
