@@ -2,311 +2,338 @@
 <html lang="ar" dir="rtl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>النشرات القانونية | ELP</title>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>النشرات القانونية | ELPAI</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link
-        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap"
         rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
-    <!-- ================= HEADER ================= -->
 
-    <header class="site-header">
+<!-- ================= HEADER ================= -->
 
-        <div class="header-inner">
+<header class="site-header">
 
-            <div class="brand">
+    <div class="header-container">
 
-                <div class="brand-mark">
-                    ELP
-                </div>
+        <a href="index.html" class="brand">
 
-                <div class="brand-text">
-                    <span>البوابة القانونية</span>
-                    <strong>للتشريعات المصرية</strong>
-                </div>
+            <div class="brand-mark header-mark">
+                ELP
             </div>
 
+            <div class="brand-info">
 
-            <nav class="main-nav">
-
-                <a href="index.html" class="active">
-                    الرئيسية
-                </a>
-
-                <a href="#">
-                    التشريعات
-                </a>
-
-                <a href="index.html">
-                    النشرات
-                </a>
-
-                <a href="#">
-                    المصطلحات القانونية
-                </a>
-
-            </nav>
-
-        </div>
-
-    </header>
-
-
-    <!-- ================= HERO ================= -->
-
-    <section class="newsletter-hero">
-
-        <div class="hero-content">
-
-            <div class="breadcrumb">
-
-                الرئيسية
-
-                <span>←</span>
-
-                النشرات
-
-            </div>
-
-
-            <div class="newsletter-label">
-                البوابة القانونية للتشريعات المصرية
-            </div>
-
-
-            <h1>
-                النشرات القانونية
-            </h1>
-
-
-            <div class="issue-meta">
-
-                <span class="meta-icon">
-                    ◷
-                </span>
+                <strong>
+                    البوابة القانونية المصرية
+                </strong>
 
                 <span>
-                    أحدث الإصدارات والمستجدات القانونية
+                    القاموس القانوني
                 </span>
 
             </div>
 
-        </div>
-
-    </section>
+        </a>
 
 
-    <!-- ================= MAIN ================= -->
+        <nav class="navigation">
 
-    <main class="container">
+            <a href="#newsletters">
+                النشرات
+            </a>
 
-        <section class="newsletter-section">
+            <a href="#savedArticles">
+                المحفوظات
+            </a>
 
-            <div class="section-heading">
+            <a href="#about">
+                عن النشرة
+            </a>
 
-                <span class="section-number">
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+    <div class="hero-background"></div>
+
+    <div class="hero-container">
+
+        <span class="hero-label">
+            ELPAI NEWSLETTER
+        </span>
+
+
+        <h1>
+            النشرات القانونية
+        </h1>
+
+
+        <p>
+            تابع أحدث المستجدات التشريعية والأخبار القانونية
+            من خلال أرشيف منظم للنشرات المصرية والعربية.
+        </p>
+
+
+        <!-- Newsletter Types -->
+
+        <div class="newsletter-tabs">
+
+            <button
+                class="newsletter-tab active"
+                data-type="egypt">
+
+                <span>
                     01
                 </span>
 
-                <div>
+                النشرات المصرية
 
-                    <p class="section-kicker">
-                        النشرات
-                    </p>
+            </button>
 
-                    <h2>
-                        اختر نوع النشرة
-                    </h2>
 
-                </div>
+            <button
+                class="newsletter-tab"
+                data-type="arab">
+
+                <span>
+                    02
+                </span>
+
+                النشرات العربية
+
+            </button>
+
+
+            <button
+                class="newsletter-tab disabled">
+
+                <span>
+                    03
+                </span>
+
+                النشرة العالمية
+
+                <small>
+                    قريبًا
+                </small>
+
+            </button>
+
+
+            <button
+                class="newsletter-tab disabled">
+
+                <span>
+                    04
+                </span>
+
+                المؤلفات
+
+                <small>
+                    قريبًا
+                </small>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= NEWSLETTER ARCHIVE ================= -->
+
+<main
+    class="newsletter-container"
+    id="newsletters">
+
+    <div class="archive-header">
+
+        <div>
+
+            <span
+                class="issue-type"
+                id="archiveType">
+
+                النشرة المصرية
+
+            </span>
+
+
+            <h2 id="archiveTitle">
+                أعداد النشرة المصرية
+            </h2>
+
+        </div>
+
+
+        <span
+            class="archive-count"
+            id="archiveCount">
+
+            0 نشرة
+
+        </span>
+
+    </div>
+
+
+    <div
+        class="newsletter-archive"
+        id="newsletterArchive">
+    </div>
+
+</main>
+
+
+
+<!-- ================= SAVED ARTICLES ================= -->
+
+<section
+    class="saved-section"
+    id="savedArticles">
+
+    <div class="newsletter-container">
+
+        <div class="archive-header">
+
+            <div>
+
+                <span class="issue-type">
+                    المقالات
+                </span>
+
+
+                <h2>
+                    المحفوظات
+                </h2>
 
             </div>
 
 
-            <!-- ================= EGYPTIAN ================= -->
+            <span
+                class="archive-count"
+                id="savedCount">
 
-            <article class="news-card newsletter-type-card">
+                0 مقال
 
-                <div class="newsletter-type-content">
+            </span>
 
-                    <div class="article-tag">
-                        مصر
-                    </div>
-
-                    <h4>
-                        النشرة القانونية المصرية
-                    </h4>
-
-                    <p>
-                        تعرف على أحدث التشريعات والأخبار
-                        والمستجدات القانونية في جمهورية مصر العربية.
-                    </p>
-
-                </div>
+        </div>
 
 
-                <a
-                    href="egyptian.html"
-                    class="read-issue">
+        <div
+            class="saved-grid"
+            id="savedArticlesList">
 
-                    عرض النشرة
+        </div>
 
-                    <span>
-                        ←
-                    </span>
+    </div>
 
-                </a>
-
-            </article>
+</section>
 
 
-            <!-- ================= ARABIC ================= -->
 
-            <article class="news-card newsletter-type-card">
+<!-- ================= ABOUT ================= -->
 
-                <div class="newsletter-type-content">
+<section
+    class="about"
+    id="about">
 
-                    <div class="article-tag">
-                        العالم العربي
-                    </div>
+    <div class="about-container">
 
-                    <h4>
-                        النشرة القانونية العربية
-                    </h4>
+        <div>
 
-                    <p>
-                        تابع أحدث التشريعات والأخبار القانونية
-                        والتطورات في الدول العربية.
-                    </p>
-
-                </div>
+            <span class="section-label">
+                عن النشرة
+            </span>
 
 
-                <a
-                    href="arabic.html"
-                    class="read-issue">
+            <h2>
+                المعلومة القانونية<br>
+                في مكان واحد
+            </h2>
 
-                    عرض النشرة
-
-                    <span>
-                        ←
-                    </span>
-
-                </a>
-
-            </article>
+        </div>
 
 
-            <!-- ================= INTERNATIONAL ================= -->
+        <p>
+            تجمع نشرة البوابة القانونية للتشريعات المصرية
+            أهم المستجدات التشريعية والقانونية في صياغة منظمة
+            تساعد على الوصول إلى المعلومات ومتابعتها بسهولة.
+        </p>
 
-            <article class="news-card newsletter-type-card">
+    </div>
 
-                <div class="newsletter-type-content">
-
-                    <div class="article-tag">
-                        دولي
-                    </div>
-
-                    <h4>
-                        النشرة القانونية العالمية
-                    </h4>
-
-                    <p>
-                        متابعة أهم التطورات والمستجدات القانونية
-                        على المستوى الدولي.
-                    </p>
-
-                </div>
+</section>
 
 
-                <a
-                    href="#"
-                    class="read-issue">
 
-                    عرض النشرة
+<!-- ================= FOOTER ================= -->
 
-                    <span>
-                        ←
-                    </span>
+<footer>
 
-                </a>
+    <div class="footer-container">
 
-            </article>
+        <div class="footer-brand">
 
+            <div class="footer-logo-mark">
+                ELP
+            </div>
 
-            <!-- ================= BOOKS ================= -->
-
-            <article class="news-card newsletter-type-card">
-
-                <div class="newsletter-type-content">
-
-                    <div class="article-tag">
-                        مؤلفات وأبحاث
-                    </div>
-
-                    <h4>
-                        المؤلفات والأبحاث الفقهية الحديثة
-                    </h4>
-
-                    <p>
-                        أحدث المؤلفات والدراسات والأبحاث
-                        المتعلقة بالمجال القانوني والفقهي.
-                    </p>
-
-                </div>
-
-
-                <a
-                    href="#"
-                    class="read-issue">
-
-                    عرض النشرة
-
-                    <span>
-                        ←
-                    </span>
-
-                </a>
-
-            </article>
-
-        </section>
-
-    </main>
-
-
-    <!-- ================= FOOTER ================= -->
-
-    <footer class="footer">
-
-        <div class="footer-inner">
-
-            <div>
+            <div class="footer-brand-info">
 
                 <strong>
-                    ELP
+                    البوابة القانونية المصرية
                 </strong>
 
-                <p>
-                    البوابة القانونية للتشريعات المصرية
-                </p>
+                <span>
+                    القاموس القانوني
+                </span>
 
             </div>
 
         </div>
 
-    </footer>
+
+        <p>
+            البوابة القانونية للتشريعات المصرية
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+<script src="script.js"></script>
 
 </body>
 
