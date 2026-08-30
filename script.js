@@ -1,7 +1,6 @@
-```javascript
 /* =========================================================
    ELPAI NEWSLETTER
-   Dynamic Newsletter Archive
+   Archive + Newsletter Details
    + Saved Articles
 ========================================================= */
 
@@ -22,18 +21,25 @@ const newsletters = [
         typeName: "النشرة المصرية",
         title: "الأسبوع الثالث من يوليو 2026",
         number: "الأسبوع 03",
-        date: "26 يوليو 2026",
+        date: "19 يوليو 2026",
 
         intro:
             "مرحباً بكم في نشرة البوابة القانونية للتشريعات المصرية، حيث نتابع هذا الأسبوع أهم المستجدات التشريعية والأخبار القانونية وما يحدث في المجتمع القانوني.",
 
         highlights: [
+
             "صدق السيد رئيس الجمهورية على قانون الموازنة ومنح السيد وزير المالية صلاحيات أوسع لإدارة الدين وإصدار أدوات التمويل",
+
             "استعرض السيد رئيس الوزراء تقريراً للجنة الطبية العليا والاستغاثات لقافلة طبية شاملة تم تنظيمها بمحافظة المنوفية",
+
             "بحث السيد وزير الكهرباء مع السفير البريطاني تعزيز التعاون في الطاقة المتجددة وتحديث الشبكات",
+
             "وقعت وزارة العدل بروتوكولين مع البنك الأهلي وبنك مصر لافتتاح فروع توثيق داخل البنوك",
+
             "تابع السيد رئيس مجلس الوزراء مستجدات مشروع الأجهزة التعويضية وجهود إنشاء مجمع صناعي للأطراف الصناعية",
+
             "تابع السيد رئيس مجلس الوزراء مستجدات تنفيذ خطة تخارج الدولة من عدد من الشركات الحكومية"
+
         ],
 
         sections: [
@@ -42,14 +48,17 @@ const newsletters = [
                 title: "أجندة تشريعية",
 
                 featured: {
+
                     title:
                         "صدق السيد رئيس الجمهورية على قانون الموازنة ومنح السيد وزير المالية صلاحيات أوسع لإدارة الدين وإصدار أدوات التمويل",
 
                     text:
                         "صدق السيد رئيس الجمهورية على قانون ربط الموازنة العامة للدولة للعام المالي 2026-2027، ومنح السيد وزير المالية صلاحيات أوسع لإدارة الدين العام وتوفير احتياجات التمويل، من خلال إتاحة أدوات دين محلية ودولية، والتعاقد على قروض أجنبية واستخدام بعض الموارد المالية في خفض أعباء الدين."
+
                 },
 
                 cards: [
+
                     {
                         title:
                             "استعرض السيد رئيس الوزراء تقريراً للجنة الطبية العليا والاستغاثات لقافلة طبية شاملة تم تنظيمها بمحافظة المنوفية",
@@ -57,13 +66,16 @@ const newsletters = [
                         text:
                             "استعرض السيد رئيس الوزراء تقريراً حول جهود القافلة الطبية الشاملة التي نظمتها اللجنة الطبية العليا والاستغاثات بمجلس الوزراء بالتعاون والتنسيق مع مؤسسة بنك الشفاء المصري."
                     }
+
                 ]
             },
+
 
             {
                 title: "أهم الأخبار",
 
                 cards: [
+
                     {
                         title:
                             "بحث السيد وزير الكهرباء مع السفير البريطاني تعزيز التعاون في الطاقة المتجددة وتحديث الشبكات",
@@ -95,13 +107,16 @@ const newsletters = [
                         text:
                             "تابع السيد رئيس الوزراء جهود وإجراءات إصلاح وإعادة هيكلة الشركات المملوكة للدولة ومستجدات تنفيذ خطة تخارج الدولة من عدد من الشركات الحكومية."
                     }
+
                 ]
             },
+
 
             {
                 title: "ما يحدث في المجتمع القانوني",
 
                 cards: [
+
                     {
                         title:
                             "الحصول على حكم لصالح موكل بمحاكم مركز دبي المالي العالمي (DIFC)",
@@ -109,13 +124,16 @@ const newsletters = [
                         text:
                             "أعلن مكتب معتوق بسيوني عن الحصول على حكم لصالح موكله بمحاكم مركز دبي المالي العالمي، وباسترداد أكثر من 11 مليون درهم إماراتي."
                     }
+
                 ]
             },
+
 
             {
                 title: "مقالات قانونية",
 
                 cards: [
+
                     {
                         title:
                             "الاستثمار الرياضي: ما بين تطلعات الأندية وآمال الجمهور",
@@ -123,8 +141,10 @@ const newsletters = [
                         text:
                             "يتناول المقال التحديات القانونية والواقعية للاستثمار في الأندية الرياضية في مصر، وإشكاليات الملكية والرقابة والتنظيم."
                     }
+
                 ]
             }
+
         ]
     },
 
@@ -145,14 +165,23 @@ const newsletters = [
             "مرحباً بكم في نشرة البوابة القانونية للتشريعات المصرية، حيث نتابع هذا الأسبوع أهم المستجدات التشريعية والأخبار القانونية وما يحدث في المجتمع القانوني.",
 
         highlights: [
+
             "تمويل المرحلة الجديدة من إصلاح منظومة التأمين الصحي الشامل",
+
             "تحت مظلة المبادرة الرئاسية «صحتك سعادة» لتعزيز الصحة النفسية",
+
             "أطلق البنك المركزي ووزارة الخارجية والتعاون الدولي مبادرة «حدث بياناتك في مصر»",
+
             "بحثا وزيرا الإنتاج الحربي والاستثمار سبل تعزيز التعاون المشترك",
+
             "أطلقت الحكومة المصرية مبادرة «معاشك بكرة بالدولار» للمصريين بالخارج",
+
             "أطلقت الحكومة نظام الإيجار التمليكي للأراضي الصناعية",
+
             "متابعة مستجدات مشروع تعديل قانون البناء بشأن تنظيم اتحاد الشاغلين",
+
             "الاستثمارات الصينية في مصر تتجاوز 10 مليار دولار"
+
         ],
 
         sections: [
@@ -161,14 +190,17 @@ const newsletters = [
                 title: "أجندة تشريعية",
 
                 featured: {
+
                     title:
                         "تمويل المرحلة الجديدة من إصلاح منظومة التأمين الصحي الشامل",
 
                     text:
                         "وافق مجلس الوزراء على مشروع قرار رئيس الجمهورية بشأن اتفاق تمويل المرحلة الجديدة من إصلاح منظومة التأمين الصحي الشامل مع الوكالة الفرنسية للتنمية. ويهدف الاتفاق إلى دعم التحول المنهجي للمنظومة، وتعزيز الحوكمة التشغيلية والاستراتيجية، وتسهيل تخطيط الميزانية لتحقيق الاستدامة المالية."
+
                 },
 
                 cards: [
+
                     {
                         title:
                             "تحت مظلة المبادرة الرئاسية «صحتك سعادة» لتعزيز الصحة النفسية",
@@ -184,13 +216,16 @@ const newsletters = [
                         text:
                             "أعلنت وزارة التربية والتعليم والتعليم الفني انطلاق الدراسة بـ5 مدارس مصرية إيطالية للتكنولوجيا التطبيقية بدءاً من العام الدراسي 2026/2027."
                     }
+
                 ]
             },
+
 
             {
                 title: "أهم الأخبار",
 
                 cards: [
+
                     {
                         title:
                             "بحثا وزيرا الإنتاج الحربي والاستثمار سبل تعزيز التعاون المشترك",
@@ -230,13 +265,16 @@ const newsletters = [
                         text:
                             "أكد رئيس مجلس الوزراء أن الاستثمارات الصينية في مصر تجاوزت 10 مليارات دولار."
                     }
+
                 ]
             },
+
 
             {
                 title: "ما يحدث في المجتمع القانوني",
 
                 cards: [
+
                     {
                         title:
                             "لا توجد أخبار جديدة في هذا القسم",
@@ -244,13 +282,16 @@ const newsletters = [
                         text:
                             "سيتم عرض المحتوى عند توفره."
                     }
+
                 ]
             },
+
 
             {
                 title: "مقالات قانونية",
 
                 cards: [
+
                     {
                         title:
                             "لا توجد مقالات جديدة في هذا العدد",
@@ -258,8 +299,10 @@ const newsletters = [
                         text:
                             "سيتم عرض المحتوى عند توفره."
                     }
+
                 ]
             }
+
         ]
     },
 
@@ -270,28 +313,31 @@ const newsletters = [
 
     {
         id: "arab-83",
-
         type: "arab",
-
         typeName: "النشرة القانونية العربية",
-
         title: "العدد الثالث والثمانون",
-
         number: "العدد 83",
-
         date: "19 يوليو 2026",
 
         intro:
             "مرحباً بكم في العدد الثالث والثمانون للنشرة القانونية العربية، التي تتناول أهم التشريعات والأخبار القانونية وما يحدث في المجتمع القانوني العربي في الأردن والمملكة العربية السعودية والإمارات العربية المتحدة.",
 
         highlights: [
+
             "تعديل أحكام الإجازة بدون راتب لتصبح أكثر مرونة لموظفي القطاع العام",
+
             "تأسيس صندوق الحماية والرعاية الاجتماعية",
+
             "11 قراراً لدعم القطاع السياحي في البترا",
+
             "اللائحة التنفيذية لمكافحة الغش التجاري في الإمارات",
+
             "جهود وطنية في مكافحة الاتجار بالأشخاص",
+
             "برنامج «تطوير السياسات» المدعوم بالذكاء الاصطناعي",
+
             "مركز المراقبة والتحكم للممرات المائية لتعزيز السلامة البحرية"
+
         ],
 
         sections: [
@@ -338,8 +384,10 @@ const newsletters = [
                                 text:
                                     "أقر مجلس الوزراء الأردني حزمة دعم شاملة للقطاع السياحي في إقليم البترا التنموي."
                             }
+
                         ]
                     },
+
 
                     {
                         name: "الإمارات العربية المتحدة",
@@ -362,8 +410,10 @@ const newsletters = [
                                 text:
                                     "أصدر مجلس الوزراء قراراً برقابة محلول اليوريا المائي المستخدم للحد من انبعاثات محركات الديزل."
                             }
+
                         ]
                     }
+
                 ]
             },
 
@@ -394,8 +444,10 @@ const newsletters = [
                                 text:
                                     "نظمت الوزارة بالتعاون مع غرفة الرياض ورشة افتراضية للتعريف بمبادرة مسرعة المهارات."
                             }
+
                         ]
                     },
+
 
                     {
                         name: "الإمارات العربية المتحدة",
@@ -418,8 +470,10 @@ const newsletters = [
                                 text:
                                     "أطلق مركز النقل المتكامل مركزاً للمراقبة والتحكم للممرات المائية بالاعتماد على الأنظمة الذكية."
                             }
+
                         ]
                     }
+
                 ]
             },
 
@@ -442,19 +496,22 @@ const newsletters = [
                                 text:
                                     "أعلنت الجهات المشاركة إتمام الاستحواذ على 100% من أسهم شركة ألايند داتا سنترز."
                             }
+
                         ]
                     }
+
                 ]
             },
 
 
             {
                 title: "مقالات قانونية",
-
                 empty: true
             }
+
         ]
     }
+
 ];
 
 
@@ -469,9 +526,12 @@ function getSavedArticles() {
 
     try {
 
-        return JSON.parse(
-            localStorage.getItem(SAVED_KEY)
-        ) || [];
+        const saved =
+            localStorage.getItem(SAVED_KEY);
+
+        return saved
+            ? JSON.parse(saved)
+            : [];
 
     } catch (error) {
 
@@ -519,6 +579,10 @@ function isArticleSaved(
 }
 
 
+/* =========================================================
+   TOGGLE SAVE ARTICLE
+========================================================= */
+
 function toggleSaveArticle(
     article,
     newsletterId,
@@ -533,6 +597,7 @@ function toggleSaveArticle(
             newsletterId,
             article.title
         );
+
 
     const existingIndex =
         saved.findIndex(
@@ -642,7 +707,9 @@ function getNewsletterId() {
 
 function shareNews(title) {
 
-    if (navigator.share) {
+    if (
+        navigator.share
+    ) {
 
         navigator.share({
 
@@ -650,7 +717,9 @@ function shareNews(title) {
 
             text: title
 
-        }).catch(() => {});
+        }).catch(
+            () => {}
+        );
 
     } else if (
         navigator.clipboard
@@ -664,20 +733,11 @@ function shareNews(title) {
                     "تم نسخ عنوان الخبر"
                 );
 
-            })
-            .catch(() => {
-
-                alert(
-                    "تعذر نسخ عنوان الخبر"
-                );
-
             });
 
     } else {
 
-        alert(
-            "تم اختيار مشاركة الخبر"
-        );
+        alert(title);
 
     }
 
@@ -709,6 +769,7 @@ function createCard(
                 ? "featured-news"
                 : "news-card"}">
 
+
             <div class="news-meta">
 
                 <span class="news-dot"></span>
@@ -731,6 +792,7 @@ function createCard(
 
 
             <div class="news-actions">
+
 
                 <button
                     class="save-button ${saved ? "saved" : ""}"
@@ -759,7 +821,9 @@ function createCard(
 
                 </button>
 
+
             </div>
+
 
         </article>
 
@@ -819,8 +883,9 @@ function createSection(
 
         `;
 
-        return html +
-            `</section>`;
+        html += `</section>`;
+
+        return html;
 
     }
 
@@ -837,7 +902,10 @@ function createSection(
         );
 
 
-        if (section.cards) {
+        if (
+            section.cards &&
+            section.cards.length
+        ) {
 
             html += `
 
@@ -866,7 +934,10 @@ function createSection(
 
     /* COUNTRIES */
 
-    if (section.countries) {
+    if (
+        section.countries &&
+        section.countries.length
+    ) {
 
         section.countries
             .forEach(country => {
@@ -914,7 +985,8 @@ function createSection(
     if (
         !section.featured &&
         !section.countries &&
-        section.cards
+        section.cards &&
+        section.cards.length
     ) {
 
         html += `
@@ -942,7 +1014,6 @@ function createSection(
 
     html += `</section>`;
 
-
     return html;
 
 }
@@ -963,6 +1034,7 @@ function createArchiveCard(
             href="newsletter.html?id=${encodeURIComponent(
                 newsletter.id
             )}">
+
 
             <div>
 
@@ -997,11 +1069,13 @@ function createArchiveCard(
                     قراءة النشرة
                 </span>
 
+
                 <span class="archive-card-arrow">
                     ←
                 </span>
 
             </div>
+
 
         </a>
 
@@ -1189,7 +1263,7 @@ function renderArchive(
         archiveType.textContent =
             type === "egypt"
                 ? "النشرة المصرية"
-                : "النشرة العربية";
+                : "النشرة القانونية العربية";
 
     }
 
@@ -1241,7 +1315,12 @@ function renderArchive(
 
     archive.innerHTML =
         filtered
-            .map(createArchiveCard)
+            .map(
+                newsletter =>
+                    createArchiveCard(
+                        newsletter
+                    )
+            )
             .join("");
 
 }
@@ -1261,24 +1340,10 @@ function renderNewsletterPage(
             "النشرة غير موجودة | ELPAI";
 
 
-        const intro =
-            document.getElementById(
-                "newsletterIntro"
-            );
-
-
         const sections =
             document.getElementById(
                 "newsletterSections"
             );
-
-
-        if (intro) {
-
-            intro.textContent =
-                "عذراً، لم يتم العثور على هذه النشرة.";
-
-        }
 
 
         if (sections) {
@@ -1287,12 +1352,16 @@ function renderNewsletterPage(
 
                 <div class="empty-state">
 
+                    <div class="empty-icon">
+                        !
+                    </div>
+
                     <strong>
                         النشرة غير موجودة
                     </strong>
 
                     <span>
-                        برجاء العودة إلى الأرشيف واختيار عدد آخر.
+                        تأكدي من الرابط أو عودي إلى الأرشيف.
                     </span>
 
                 </div>
@@ -1300,6 +1369,7 @@ function renderNewsletterPage(
             `;
 
         }
+
 
         return;
 
@@ -1390,7 +1460,8 @@ function renderNewsletterPage(
                         <div class="highlight">
 
                             <span class="highlight-number">
-                                ${String(index + 1).padStart(2, "0")}
+                                ${String(index + 1)
+                                    .padStart(2, "0")}
                             </span>
 
                             ${item}
@@ -1442,15 +1513,14 @@ function setupArchiveTabs() {
 
         tab.addEventListener(
             "click",
-            () => {
+            function () {
 
-                tabs.forEach(item => {
-
-                    item.classList.remove(
-                        "active"
-                    );
-
-                });
+                tabs.forEach(
+                    item =>
+                        item.classList.remove(
+                            "active"
+                        )
+                );
 
 
                 tab.classList.add(
@@ -1478,7 +1548,9 @@ function setupArchiveTabs() {
    OPEN NEWSLETTER
 ========================================================= */
 
-function openNewsletter(id) {
+function openNewsletter(
+    id
+) {
 
     window.location.href =
         `newsletter.html?id=${encodeURIComponent(id)}`;
@@ -1492,25 +1564,26 @@ function openNewsletter(id) {
 
 document.addEventListener(
     "DOMContentLoaded",
-    () => {
+    function () {
+
 
         /* ============================
            ARCHIVE PAGE
         ============================ */
 
-        if (
+        const archive =
             document.getElementById(
                 "newsletterArchive"
-            )
-        ) {
+            );
+
+
+        if (archive) {
 
             renderArchive(
                 "egypt"
             );
 
-
             setupArchiveTabs();
-
 
             renderSavedArticles();
 
@@ -1521,11 +1594,13 @@ document.addEventListener(
            NEWSLETTER DETAILS PAGE
         ============================ */
 
-        if (
+        const newsletterSections =
             document.getElementById(
                 "newsletterSections"
-            )
-        ) {
+            );
+
+
+        if (newsletterSections) {
 
             const id =
                 getNewsletterId();
@@ -1546,4 +1621,3 @@ document.addEventListener(
 
     }
 );
-```
